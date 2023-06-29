@@ -374,7 +374,7 @@ Submit:
 	fields := Object("Name",name,"Key Combo",keycombo,"Replacement Text",action,"Description", description)
 	for field,value in fields ; loop through the list
 	{
-		If !(value) {
+		if !(value) {
 			MsgBox Do not leave %field% field empty ; show error message
 			failed := True
 		} ; if the value of the variable whose name is saved in A_LoopField is empty
