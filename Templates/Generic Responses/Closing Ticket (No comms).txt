@@ -1,0 +1,5 @@
+{GREETING} ,
+
+We will close the ticket now because we didn't receive a response. If you still need help, feel free to reply to this email and a new ticket will be created. 
+
+{SIGNATURE}

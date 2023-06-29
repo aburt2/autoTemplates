@@ -1,0 +1,9 @@
+{GREETING} ,
+
+Thank you for contacting Teaching and Learning Service. I have received your request for a consultation. Here are some resources that might be great to start with: 
+
+INSERT RESOURCES HERE
+
+If after you have reviewed this material and would still like to meet with one of our consultants, please let me know! I will be happy to put you in touch with one of them.  
+
+{SIGNATURE}

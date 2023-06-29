@@ -1,0 +1,5 @@
+{GREETING} , 
+
+We have received your license upgrade request. INSERT_EMAIL will be upgraded on the INSERT_START_DATE to INSERT_NUM_PARTICIPANTS participants and reverted back to default on INSERT_CLOSE_DATA.
+ 
+{SIGNATURE}

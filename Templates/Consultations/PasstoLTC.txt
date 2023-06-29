@@ -1,0 +1,5 @@
+{GREETING} ,
+  
+I have forwarded your request to one of our Learning Technology Consultants, who will be in touch to schedule a meeting with you. 
+
+{SIGNATURE}

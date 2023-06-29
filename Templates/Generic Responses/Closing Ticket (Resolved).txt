@@ -1,0 +1,5 @@
+{GREETING} ,
+
+Thank you for your response. I will close the ticket now.
+
+{SIGNATURE}

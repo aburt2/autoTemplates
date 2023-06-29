@@ -1,0 +1,7 @@
+{GREETING} ,
+
+Thank you for contacting Teaching and Learning Services. In order to proceed with your Zoom license request can you please provide the following details.
+Number of Participants:
+Dates of the event:
+
+{SIGNATURE}

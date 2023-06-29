@@ -1,0 +1,14 @@
+{GREETING} ,
+
+The editorial review of the article has been completed and it is now ready for your final approval before publication.
+Please review the article (linked below) and let us know if further changes are required.
+Article in staging site: [insert link to the article]
+
+You can provide feedback inline comments to the article in Confluence. 
+How to add inline comments in Confluence: https://support.atlassian.com/confluence-cloud/docs/comment-on-pages-and-blog-posts/#Add-inline-comments 
+
+If significant changes or clarification are needed, please reply to this email to request a Zoom meeting with our team to discuss the feedback in more detail and expedite the review process.
+
+Once we receive your feedback, we will make the final changes and proceed with publication.
+
+{SIGNATURE}

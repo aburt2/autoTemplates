@@ -1,0 +1,5 @@
+{GREETING} ,
+
+Thank you for contacting Teaching and Learning Services. Can you try logging into mcgill.zoom.us with your McGill username and ID. Once you login in you should be provisioned a Zoom license.
+
+{SIGNATURE}

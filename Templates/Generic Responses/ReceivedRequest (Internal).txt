@@ -1,0 +1,5 @@
+{GREETING} ,
+
+This email is to inform you that we have received your request.
+
+{SIGNATURE}

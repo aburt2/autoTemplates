@@ -1,0 +1,6 @@
+{GREETING} ,
+
+We hope the information provided in the previous email was useful. Please let us know if you require further assistance, we will be happy to help.
+If we do not receive a response by {DATE}, we will close this ticket. 
+
+{SIGNATURE}

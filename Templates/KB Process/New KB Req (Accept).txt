@@ -1,0 +1,15 @@
+{GREETING} ,
+
+Your article request has been approved, please refer to our article writing guidelines [insert link to article writing guidelines] to get started. 
+
+Once the author has drafted the article, the article should be submitted to the manager for review and approval. Once approved, the final article may be submitted through our MS Form [insert link to MS Form].
+
+The appointed author for this article is: XXXX
+The appointed manager to review this article is: XXXX
+The manager and author are copied on this email.
+
+If you have any questions or concerns, do not hesitate to contact us.
+
+Thank you for your contribution to the TL KB.
+
+{SIGNATURE}

@@ -1,0 +1,7 @@
+{GREETING} ,
+
+Your article has been published in the TL KB. You can view your published article here: [insert link to the article]
+
+If you have any questions or concerns, please reply to this email and our team will be happy to assist you.
+
+{SIGNATURE}

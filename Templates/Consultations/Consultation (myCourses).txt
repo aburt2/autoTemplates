@@ -1,0 +1,16 @@
+{GREETING} ,
+
+Thank you for contacting Teaching and Learning Service. I have received your request for help setting up myCourses. As a new instructor, there are three resources that might be great to start with depending on your preference as a learner: 
+
+TLS webinar series: https://www.mcgill.ca/tls/events 
+If you prefer to view these sessions before hand, we also have some recordings from our past sessions here: https://deptkb.mcgill.ca/display/TLK/Webinars 
+
+myCourses Essentials: https://mycourses2.mcgill.ca/d2l/home/412509 
+A self-paced course in myCourses in which you are enrolled that provides the basics of myCourses and get you quickly started as an instructor. 
+
+Teaching and Learning Knowledge Base: www.mcgill.ca/teachingkb 
+This will provide more in-depth guidance from planning your course to step-by-step instructions on each of the myCourses tools. 
+
+If after you have reviewed this material and would still like to meet with one of our consultants, please let me know! I will be happy to put you in touch with one of them.  
+
+{SIGNATURE}

@@ -1,0 +1,9 @@
+{GREETING} ,
+
+Glad to see you're using Mural, it's a great tool for all kinds of things!
+
+To use Mural, please follow the instructions under "How do I start using Mural?" on this page: https://www.mcgill.ca/tls/students/learning-resources/learning-mural. It might be a good idea to clear your cookies before you try, just in case it redirects you back to the same place that wasn't working for you earlier.
+
+If we do not receive a response by {DATE}, we will close this ticket. 
+
+{SIGNATURE}

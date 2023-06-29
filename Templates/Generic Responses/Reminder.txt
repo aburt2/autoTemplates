@@ -1,0 +1,5 @@
+{GREETING} ,
+
+Please let us know if you require further assistance, we will be happy to help
+
+{SIGNATURE}

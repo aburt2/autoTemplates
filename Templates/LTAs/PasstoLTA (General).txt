@@ -1,0 +1,5 @@
+{GREETING} ,
+  
+Thank you for contacting Teaching and Learning Services. I have forwarded your request to our Learning Technology Analysts, who will be able to assist you. 
+
+{SIGNATURE}

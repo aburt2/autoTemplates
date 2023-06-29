@@ -1,0 +1,7 @@
+{GREETING}
+
+Thank you for contacting Teaching and Learning Services. In order to crosslist a course you must fill out the request form below.
+
+myCourses Crosslist: https://mcgill.service-now.com/itportal?id=sc_cat_item&sys_id=bf4636861bcdac104d14b887cc4bcbe9&sysparm_category=154c08514f4a9200b18f59dd0210c7bc
+
+{SIGNATURE}

@@ -1,0 +1,6 @@
+{GREETING} ,
+
+Thank you for contacting Teaching and Learning Services. You have been enrolled into myCourses Essentials. You can access the course through the following link.
+myCourses Essentials: https://mycourses2.mcgill.ca/d2l/home/412509
+
+{SIGNATURE}

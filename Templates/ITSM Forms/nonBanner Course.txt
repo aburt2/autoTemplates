@@ -1,0 +1,7 @@
+{GREETING}
+
+Thank you for contacting Teaching and Learning Services. In order to create a new course you must fill out the request form below. This form will collect all the required details for the creation of your course and assign it to the appropriate team.
+
+Create non-Banner Courses: https://mcgill.service-now.com/itportal?id=sc_cat_item&sys_id=7bbd51101bedbc504d14b887cc4bcb43&sysparm_category=154c08514f4a9200b18f59dd0210c7bc
+
+{SIGNATURE}

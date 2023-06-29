@@ -1,0 +1,7 @@
+{GREETING} ,
+
+We received the following Pedagogical Request through ITSM. Details below:
+
+PASTE ITSM TICKET DETAILS
+
+{SIGNATURE}
