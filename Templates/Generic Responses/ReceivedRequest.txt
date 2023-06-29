@@ -1,5 +1,0 @@
-{GREETING} ,
-
-Thank you for contacting Teaching and Learning Services. We have received your request.
-
-{SIGNATURE}

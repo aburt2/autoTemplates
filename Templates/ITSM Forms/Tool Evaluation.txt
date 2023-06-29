@@ -1,7 +1,0 @@
-{GREETING} ,
-
-Thank you for contacting Teaching and Learning Services. As the tool is not an approved learning tool at McGill you will have to fill out the Tool Evaluation form. The form requires your McGill Username/Password to be accessed.
-
-Tool Evaluation Request Form: https://mcgill.service-now.com/itportal?id=sc_cat_item&sys_id=7f4036301b80455c4d14b887cc4bcb2f&sysparm_category=154c08514f4a9200b18f59dd0210c7bc
-
-{SIGNATURE}

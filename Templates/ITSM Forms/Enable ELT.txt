@@ -1,7 +1,0 @@
-{GREETING}
-
-Thank you for contacting Teaching and Learning Services. In order to enable an external learning tool you must fill out the request form below.
-
-Enable External Learning Tool: https://mcgill.service-now.com/itportal?id=sc_cat_item&sys_id=6db2e3a11b4d99d88a417592cd4bcb02&sysparm_category=154c08514f4a9200b18f59dd0210c7bc
-
-{SIGNATURE}

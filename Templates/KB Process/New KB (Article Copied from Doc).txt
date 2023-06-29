@@ -1,7 +1,0 @@
-{GREETING} ,
-
-The article submitted as a Word document has been successfully added to the TL KB and is now moving to the editorial review stage to ensure it follows the TLS style guide.
-
-We will contact you once the article is ready for your final approval.
-
-{SIGNATURE}

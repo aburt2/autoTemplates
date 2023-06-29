@@ -1,6 +1,0 @@
-{GREETING} ,
-
-Thank you for contacting Teaching and Learning Services. To retrieve the recording please log in to https://mcgill.zoom.us/ with your McGill credentials and go to the Recordings tab. If you can't find it there, try looking in the Trash (instructions below). Due to McGill privacy policy, recordings are deleted from the Zoom portal after three days. Hence, you have to find them in the Trash folder.
-Find recordings in the Trash: https://support.zoom.us/hc/en-us/articles/216378863-Recover-a-deleted-cloud-recording
-
-{SIGNATURE}
