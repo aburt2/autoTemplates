@@ -1,0 +1,26 @@
+# This is a basic workflow to help you get started with Actions
+name: Compile Ahk file to exe
+
+on: push
+
+jobs:
+  CompileRelease:
+    name: compile
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Ahk2Exe
+        uses: nekocodeX/GitHub-Action-Ahk2Exe@main
+        with:
+          in: AutoTemplates.ahk
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: AutoTemplates.exe
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
