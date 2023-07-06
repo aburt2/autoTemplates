@@ -37,8 +37,11 @@ The __settings.ini__ file contains the general settings for AutoTemplates.ahk
 | FolderButton         | Hotkey for opening root folder where the script is located             | ^!f             |
 | SettingsButton       | Hotkey for opening settings.ini                                        | ^!s             |
 | hotstringadderButton | Hotkey for adding custom hotstring button                              | ^!w             |
-| SignatureKey         | Replaced with signature                                                | {SIGNATURE}     |
-| GreetingKey          | Replaced with `emailGreeting` from __names.ini__                                          | {GREETING}      |
+| SignatureKey         | Replaced with the default signature                                    | {SIGNATURE}     |
+| EmailSignatureKey    | Replaced with `emailSignature`                                         | {EMAILSIGNATUREKEY}     |
+| CasualSignatureKey   | Replaced with `simplesignature`                                        | {SIMPLESIGNATUREKEY}     |
+| SignatureKey         | Replaced with `casualSignature`                                        | {CASUALSIGNATUREKEY}     |
+| GreetingKey          | Replaced with `emailGreeting` from __names.ini__                       | {GREETING}      |
 | closingDatekey       | Replaced with date three business days away                            | {DATE}          |
 
 ### Signature Settings

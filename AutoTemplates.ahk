@@ -38,15 +38,18 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	
 	;Load keywords
 	IniRead SIGNATURE,					settings.ini, Keywords, SignatureKey
+	IniRead EMAILSIGNATUREKEY,				settings.ini, Keywords, EmailSignatureKey
+	IniRead SIMPLESIGNATUREKEY,			settings.ini, Keywords, SimpleSignatureKey
+	IniRead CASUALSIGNATUREKEY,			settings.ini, Keywords, CasualSignatureKey
 	IniRead GREETING,					settings.ini, Keywords, GreetingKey
 	IniRead CLOSINGDATE,				settings.ini, Keywords, ClosingDateKEy
 
 	;Read default signature settings
-	IniRead, name,		 				names.ini, DefaultSig, username
-	IniRead, EmailGreeting,		 		names.ini, DefaultSig, emailGreeting
-	IniRead, EmailClosing,				names.ini, DefaultSig, emailClosing
-	IniRead, position,		 			names.ini, DefaultSig, position
-    IniRead, department,	 			names.ini, DefaultSig, department
+	IniRead, name,		 				names.ini, fullName, username
+	IniRead, EmailGreeting,		 		names.ini, fullName, emailGreeting
+	IniRead, EmailClosing,				names.ini, fullName, emailClosing
+	IniRead, position,		 			names.ini, fullName, position
+    IniRead, department,	 			names.ini, fullName, department
 
 ; Read names from names.ini file
 	IniRead, nameList,					names.ini
@@ -141,7 +144,16 @@ CasualSignature := EmailClosing ", `n" FirstName
 TicketTemplate := "{GREETING} ,`n`nINSERT TEXT HERE `n`n{SIGNATURE}"
 
 ;Create Generic Ticket
-GeneralTicket := EmailGreeting " ,`n`nINSERT TEXT HERE `n`n" EmailSignature
+if InStr(DefaultSig, "emailSignature") {
+	GeneralTicket := EmailGreeting " ,`n`nINSERT TEXT HERE `n`n" EmailSignature
+} else if InStr(DefaultSig, "simpleSignature") {
+	GeneralTicket := EmailGreeting " ,`n`nINSERT TEXT HERE `n`n" SimpleSignature
+} else if InStr(DefaultSig, "casualSignature") {
+	GeneralTicket := EmailGreeting " ,`n`nINSERT TEXT HERE `n`n" CasualSignature
+} else {
+	GeneralTicket := EmailGreeting " ,`n`nINSERT TEXT HERE `n`n" EmailSignature
+}
+
 
 ;Create Hotkeys
 Hotkey, %MenuButtonMouse%, Showmenu
@@ -281,6 +293,15 @@ textfromfile:
 		} else {
 			filecontent := StrReplace(filecontent, SIGNATURE, EmailSignature)
 		}
+	If InStr(filecontent, EMAILSIGNATUREKEY)
+		filecontent := StrReplace(filecontent, EMAILSIGNATUREKEY, EmailSignature)
+
+	If InStr(filecontent, SIMPLESIGNATUREKEY)
+		filecontent := StrReplace(filecontent, SIMPLESIGNATUREKEY, SimpleSignature)
+
+	If InStr(filecontent, CASUALSIGNATUREKEY)
+		filecontent := StrReplace(filecontent, CASUALSIGNATUREKEY, CasualSignature)
+
 	If InStr(filecontent, GREETING)
 		filecontent := StrReplace(filecontent, GREETING, EmailGreeting)
 
