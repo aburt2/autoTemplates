@@ -11,10 +11,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;SETUP
 ;****************************************************************************************
 ; Read settings from settings.ini
-    IniRead, company,	 				settings.ini, Simple, company
-
-	;Where on the network the template files are found
-	IniRead, mentitff,			 		settings.ini, Advanced, mentitff	
+    IniRead, company,	 				settings.ini, Simple, company	
 
 	;What country the template files should come from
 	IniRead, templatecountry, 			settings.ini, Simple, templatecountry
@@ -37,7 +34,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	IniRead, hotstringadderButton,		settings.ini, Advanced, hotstringadderButton
 
 	;Load default email signature shortcut
-	IniRead, DefaultSig,				settings.ini, Advanced, emailSignature
+	IniRead, DefaultSig,				settings.ini, Advanced, defaultSignature
 	
 	;Load keywords
 	IniRead SIGNATURE,					settings.ini, Keywords, SignatureKey
