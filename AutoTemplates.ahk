@@ -210,9 +210,9 @@ editmenuName := menuName " Edits"
 settingsmenuName := menuName " Settings"
 
 ;Creates the template menu and edit menu
-Menu, MyMenu, Add, menuName, About ; Menutitle for the program
-Menu, EditMenu, Add, editmenuName, AboutEdit ; Menutitle for the program
-Menu, SettingsMenu, Add, settingsmenuName, AboutSettings ; Menutitle for the program
+Menu, MyMenu, Add, %menuName%, About ; Menutitle for the program
+Menu, EditMenu, Add, %editmenuName%, AboutEdit ; Menutitle for the program
+Menu, SettingsMenu, Add, %settingsmenuName%, AboutSettings ; Menutitle for the program
 
 ;Adds two separators after the menu title 
 Menu, MyMenu, Add, 
